@@ -1,0 +1,12 @@
+{
+	"defaultSeverity": "error",
+	"extends": ["tslint:latest"],
+	"jsRules": {},
+	"rules": {
+    "quotemark": [true, "single"]
+  },
+	"rulesDirectory": [],
+	"linterOptions": {
+		"exclude": ["**/node_modules/**"]
+	}
+}
