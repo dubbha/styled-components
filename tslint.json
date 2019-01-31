@@ -1,9 +1,13 @@
 {
 	"defaultSeverity": "error",
-	"extends": ["tslint:latest"],
+	"extends": [
+    "tslint:latest",
+    "tslint-react"
+  ],
 	"jsRules": {},
 	"rules": {
-    "quotemark": [true, "single"]
+    "quotemark": [true, "single"],
+    "no-console": [false]
   },
 	"rulesDirectory": [],
 	"linterOptions": {
