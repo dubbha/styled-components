@@ -21,5 +21,22 @@ module.exports = {
     path: path.resolve(__dirname, './dist'),
     filename: 'bundle.js'
   },
-  plugins: [new HtmlWebpackPlugin()],
+  plugins: [
+    new HtmlWebpackPlugin({
+      template: './assets/index.html',
+      title: 'react-ts-styled-components',
+      meta: {
+        charset: 'utf-8',
+        viewport: 'width=device-width, initial-scale=1, shrink-to-fit=no',
+      },
+      minify: {
+        collapseWhitespace: true,
+        removeComments: true,
+        removeRedundantAttributes: true,
+        removeScriptTypeAttributes: true,
+        removeStyleLinkTypeAttributes: true,
+        useShortDoctype: true
+      },
+    })
+  ],
 };

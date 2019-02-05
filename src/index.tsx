@@ -1,8 +1,5 @@
 import React from 'react';
 import { render } from 'react-dom';
-
-const App = () => <div>React App</div>;
+import { App } from './components/App/App';
 
 render(<App/>, document.getElementById('app'));
-
-console.log('dfdf');
