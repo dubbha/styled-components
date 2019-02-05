@@ -1,10 +1,12 @@
-### Redux Saga MovieDB app
+### React with Typescript and styled-components
 
-- [ ] styled-components
-- [ ] babel v7 supporting typescript (@babel/preset-typescript)
-- [ ] babel-plugin-styled-components
-- [ ] typescript-plugin-styled-components
+- [x] styled-components
+- [x] babel v7 supporting typescript (@babel/preset-typescript)
+- [x] babel-plugin-styled-components
+- [x] typescript-plugin-styled-components
+- [x] HtmlWebpackPlugin serving index.html
 
 http://styled-talk.surge.sh
 https://www.styled-components.com/docs
+
 
