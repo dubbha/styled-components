@@ -5,6 +5,7 @@
 - [x] babel-plugin-styled-components
 - [x] typescript-plugin-styled-components
 - [x] HtmlWebpackPlugin serving index.html
+- [ ] Test
 
 http://styled-talk.surge.sh
 https://www.styled-components.com/docs
